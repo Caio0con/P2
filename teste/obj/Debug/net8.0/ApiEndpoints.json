@@ -1,0 +1,66 @@
+[
+  {
+    "ContainingType": "NavarroProva.Properties.Controllers.UserController",
+    "Method": "CriarPost",
+    "RelativePath": "api/User/criarPost",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novoPost",
+        "Type": "NavarroProva.Properties.Model.Post",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NavarroProva.Properties.Controllers.UserController",
+    "Method": "CriarUsuario",
+    "RelativePath": "api/User/criarUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novoUsuario",
+        "Type": "NavarroProva.Properties.Model.usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NavarroProva.Properties.Controllers.UserController",
+    "Method": "ObterPost",
+    "RelativePath": "api/User/obterPost/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NavarroProva.Properties.Controllers.UserController",
+    "Method": "ObterUsuario",
+    "RelativePath": "api/User/obterUsuario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
